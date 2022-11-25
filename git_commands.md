@@ -27,14 +27,19 @@
 
 
 ## backtrack commands
-### reset changes in working dir
+### reset changes in "working" from HEAD
 	git restore filename
 
-### reset working dir to HEAD
+### reset changes in "staging" from HEAD
+	git restore --staged filename
+
+### reset working dir from HEAD and untrack staged file
 	git checkout HEAD filename
 	
-### reset/stay with HEAD and untrack staged file
+### reset from HEAD and untrack staged file
 	git reset HEAD filename
 	
-### reset/move HEAD to "commitSHA" and untrack staged file
+### move HEAD to "commitSHA" and untrack staged file
 	git reset commitSHA filename
+
+
