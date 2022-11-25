@@ -27,6 +27,9 @@
 
 
 ## backtrack commands
+### reset changes in working dir
+	git restore filename
+
 ### reset working dir to HEAD
 	git checkout HEAD filename
 	
