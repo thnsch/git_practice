@@ -33,13 +33,13 @@
 ### reset changes in "staging" from HEAD
 	git restore --staged filename
 
-### reset working dir from HEAD and untrack staged file
+### reset working dir from HEAD and unstage file
 	git checkout HEAD filename
 	
-### reset from HEAD and untrack staged file
+### reset from HEAD and unstage file
 	git reset HEAD filename
 	
-### move HEAD to "commitSHA" and untrack staged file
+### move HEAD to "commitSHA" and unstage file
 	git reset commitSHA filename
 
 
