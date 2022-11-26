@@ -10,24 +10,34 @@
 
 ## branch
 Show current branch
+
 	git branch
 
 Create a branch
+
 	git branch NEW_BRANCH
 
 Switch to another branch
+
 	git checkout BRANCH
 
 Merge branch to main
-add and commit changes on BRANCH
-	git checkout main  # switch to main
+
+	# add and commit changes on BRANCH
+	git checkout main   # switch to main
 	git merge BRANCH
 
 Merge conflict
+
 A file contains a changed line on BRANCH and on main
 
 	<<<<<<< HEAD
-	# this is a PRO file on branch "fences"
+	# this is a PRO file on branch "main"
 	=======
 	# this is a MED file on branch "fences"
 	>>>>>>> fencing
+
+Delete branch
+
+	git branch -d BRANCH
+
