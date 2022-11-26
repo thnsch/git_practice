@@ -9,7 +9,7 @@
 	git init -b main
 	git add .
 	git commit -m "Initial commit"
-	git remote add origin https://gitlab.dom.com/repo     # remote must be empty
+	git remote add origin https://gitlab.dom.com/repo     # remote must exist and be empty
 	git push -u origin main
 
 ## update
