@@ -18,3 +18,16 @@ Create a branch
 Switch to another branch
 	git checkout BRANCH
 
+Merge branch to main
+add and commit changes on BRANCH
+	git checkout main  # switch to main
+	git merge BRANCH
+
+Merge conflict
+A file contains a changed line on BRANCH and on main
+
+	<<<<<<< HEAD
+	# this is a PRO file on branch "fences"
+	=======
+	# this is a MED file on branch "fences"
+	>>>>>>> fencing
