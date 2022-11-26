@@ -1,18 +1,20 @@
 
 # Repos
 
-## remote to local
+## clone
+### remote to local
 	git clone git@gitlab.dom.com:path/to/repo.git
 
-## local to remote
+### local to remote
 	git init -b main
 	git add .
 	git commit -m "Initial commit"
 	git remote add origin https://gitlab.dom.com/repo     # remote must be empty
 	git push -u origin main
 
-## update local
+## update
+### update local
 	git pull
 	
-## update remote
+### update remote
 	git push
