@@ -12,3 +12,9 @@
 Show current branch
 	git branch
 
+Create a branch
+	git branch NEW_BRANCH
+
+Switch to another branch
+	git checkout BRANCH
+
