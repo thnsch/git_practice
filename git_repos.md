@@ -14,7 +14,7 @@
 
 ## update
 ### update local
-	git pull     // git fetch && git merge
+	git pull      // git fetch && git merge
 	
 ### update remote
 	git push
