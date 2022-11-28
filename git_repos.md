@@ -3,7 +3,7 @@
 
 ## clone
 ### remote to local
-	git clone git@gitlab.dom.com:path/to/repo.git
+	git clone git@gitlab.dom.com:path/to/repo.git [name of local repo]
 
 ### local to remote
 	git init -b main
@@ -14,7 +14,7 @@
 
 ## update
 ### update local
-	git pull
+	git pull	// git fetch && git merge
 	
 ### update remote
 	git push
