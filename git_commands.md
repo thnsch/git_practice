@@ -6,7 +6,7 @@
 	git init
 
 
-## staging
+## staging to the "index"
 ### stage files
 
 	git add filename
